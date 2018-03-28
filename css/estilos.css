@@ -1,0 +1,14 @@
+body{
+    background-color: #36EFB2;
+}
+.cuadro{
+    width: 150px;
+    padding: 10px;
+    margin: 20px 0;
+    border-top-style: solid;
+    border-top-color: #0c5c00;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #cfcf00;
+    display: inline-block;
+}
