@@ -69,12 +69,14 @@ p{
     color: white;
     background-color: var(--secondary-color);
     text-decoration: none;
-    display: inline-block;
     padding: 20px;
     height: 60px;
-    width: 160px;
-    border-top-left-radius: 80px 60px;
-    border-top-right-radius: 80px 60px;
+    width: 180px;
+    border-top-left-radius: 90px 60px;
+    border-top-right-radius: 90px 60px;
+    position: fixed;
+    bottom: -5px;
+    transform: translate(-90px, 0px);
 }
 .title_form{
     margin-bottom: 5px;
@@ -87,6 +89,14 @@ hr {
     width: 30px;
     background-color: var(--secondary-color);
 }
+
+.advice{
+   width: 100%;
+   text-align: right;
+   padding-top: 10px;
+   padding-right: 30px;
+}
+
 
 .con_formulario{
     text-align: center;
@@ -109,10 +119,10 @@ input{
     border-color: transparent transparent var(--accent-color);
 }
 
-input:focus{
+/* input:focus{
     background-color: transparent;
     border-color: transparent transparent var(--secondary-color);
-}
+} */
 
 .respuesta{
     font-family: 'Roboto', sans-serif;
@@ -142,4 +152,7 @@ input:focus{
     bottom: 0;
     right: 0;
 }
-
+a span{
+    display: inline-block;
+    margin-top: 5px;
+}
