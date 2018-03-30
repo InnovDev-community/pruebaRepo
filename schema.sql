@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS collections;
+
+CREATE DATABASE collections;
+
+USE collections;
+
+CREATE TABLE data (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(45) NOT NULL,
+    company VARCHAR(45) NOT NULL,
+    email VARCHAR(45) NOT NULL,
+    adress VARCHAR(45) NOT NULL,
+    post_code VARCHAR(15) NOT NULL
+);
